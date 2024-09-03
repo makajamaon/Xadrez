@@ -1,0 +1,19 @@
+const modais = document.querySelectorAll('.modal');
+
+document.querySelectorAll('a[data-modal]').forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const modalId = link.dataset.modal;
+    const modal = document.getElementById(modalId);
+    modal.style.display = 'block';
+  });
+});
+
+// Fechar modal ao clicar fora
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    modais.forEach(modal => {
+      modal.style.display = "none";
+    });
+  }
+}
