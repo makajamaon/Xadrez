@@ -1,0 +1,80 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Georgia, serif; /* Fonte elegante e legível */
+    background-color: #D2B48C; /* Fundo marrom claro */
+    color: #333; /* Cor do texto */
+  }
+  
+  header {
+    background-color: #8B4513; /* Marrom mais escuro para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #F5DEB3; /* Cor do texto do título */
+  }
+  
+  main {
+    background-color: #B8860B; /* Marrom mais claro para o conteúdo principal */
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  input[type="text"], button {
+    background-color: #F5DEB3; /* Cor do fundo dos elementos de input */
+    color: #333;
+    border: 1px solid #8B4513;
+  }
+  
+  footer {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    color: #F5DEB3;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .modal {
+    /* ... outras propriedades ... */
+    background-color: #f5deb3; /* Bege claro */
+    color: #663300; /* Marrom escuro */
+  }
+  
+  .modal-content {
+    background-color: inherit;
+    color: inherit;
+    padding: 20px;
+  }
+
+  .modal {
+    /* ... outras propriedades ... */
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: Georgia, serif;
+  }
