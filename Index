@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,35 @@
         <h1>Peças do Xadrez</h1>
     </header>
     <main>
+        <section>
         <input type="text" placeholder="Digite o nome da abertura">
         <button>Pesquisar</button>
+    </section>
+    <section>
+            <ul id="aberturas">
+                <li><a href="#" data-modal="modal-ruy-lopez">Ruy López</a></li>
+                <li><a href="#" data-modal="modal-italiana">Aberta Italiana</a></li>
+                <li><a href="#" data-modal="modal-espana">Abertura Espanhola</a></li>
+            </ul>
+            
+            <ul id="defesas">
+                <li><a href="#" data-modal="modal-siciliana">Siciliana</a></li>
+                <li><a href="#" data-modal="modal-francesa">Francesa</a></li>
+            </ul>
+            
+            <div id="modal-ruy-lopez" class="modal">
+                <h2>Ruy López</h2>
+                <p>O Ruy López é uma das aberturas mais antigas e populares do xadrez. Caracterizada por 1.e4 e5 2.Cf3 Cc6 3.Bb5, ela oferece muitas possibilidades tanto para as brancas quanto para as pretas.</p>
+                <h3>Partida Clássica:</h3>
+                <p><strong>Capablanca vs. Alekhine, Nova York 1927</strong>. Uma partida memorável onde Capablanca demonstrou a beleza e a profundidade dessa abertura.</p>
+                <a href="https://www.chessgames.com/perl/chess.pl?tid=54140">Analisar a partida</a>
+              </div>
+            <div id="modal-italiana" class="modal">...</div>
+            <div id="modal-espana" class="modal">...</div>
+            <div id="modal-siciliana" class="modal">...</div>
+            <div id="modal-francesa" class="modal">...</div>
+            <script src="chesstotal.js"></script>
+    </section>
     </main>
     <footer>
         <p>2024 - Xadrez - Todos os direitos reservados</p>
